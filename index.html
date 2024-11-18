@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Шаблонный лендинг для юр. лиц</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/libraries.min.css?_v=20241118210858">
+	<link rel="stylesheet" href="css/style.css?_v=20241118210858">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage">
+   <div class="wrapper">
+      <header class="header" itemscope="" itemtype="https://schema.org/WPHeader">
+   <div class="container">
+      <div class="header__row flex-box align-items-center justify-space-between">
+         <a href="#" class="header__logo">
+            <img src="img/logo.png" alt="">
+         </a>
+         <nav class="header__nav">
+            <ul class="header-menu flex-box align-items-center flex-wrap">
+               <li class="header-menu__item">
+                  <a href="#services" class="header-menu__link">Услуги</a>
+               </li>
+               <li class="header-menu__item">
+                  <a href="#stages-work" class="header-menu__link">Этапы</a>
+               </li>
+               <li class="header-menu__item" itemprop="name">
+                  <a href="#reviews" class="header-menu__link">Отзывы</a>
+               </li>
+               <li class="header-menu__item" itemprop="name">
+                  <a href="#faq" class="header-menu__link">Вопросы</a>
+               </li>
+               <li class="header-menu__item" itemprop="name">
+                  <a href="#contacts" class="header-menu__link">Контакты</a>
+               </li>
+            </ul>
+         </nav>
+         <div class="header__contacts flex-box align-items-center">
+            <a href="tel:+70000000000" class="header__phone">+7 (000) 000-00-00</a>
+            <a href="#" data-hystmodal="#modal" class="header__btn button">
+               <span>Консультация</span>
+            </a>
+         </div>
+         <a href="#" class="header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+         </a>
+         <div class="header-menu-mobile">
+            <nav class="header-menu-mobile__nav">
+               <ul class="header-menu-mobile__list">
+                  <li class="header-menu-mobile__item">
+                     <a href="#services" class="header-menu-mobile__link">Услуги</a>
+                  </li>
+                  <li class="header-menu-mobile__item">
+                     <a href="#stages-work" class="header-menu-mobile__link">Этапы</a>
+                  </li>
+                  <li class="header-menu-mobile__item">
+                     <a href="#reviews" class="header-menu-mobile__link">Отзывы</a>
+                  </li>
+                  <li class="header-menu-mobile__item">
+                     <a href="#faq" class="header-menu-mobile__link">Вопросы</a>
+                  </li>
+                  <li class="header-menu-mobile__item">
+                     <a href="#contacts" class="header-menu-mobile__link">Контакты</a>
+                  </li>
+               </ul>
+            </nav>
+            <a href="tel:+70000000000" class="header-menu-mobile__phone">+7 (000) 000-00-00</a>
+            <div class="header-menu-mobile__social">
+               <a href="#" class="social">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45" fill="none">
+                     <g>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                           d="M0.00599052 22.5033C0.00335536 10.0842 10.0689 0.0143647 22.4879 0.0117296C26.698 0.00760115 30.8245 1.18534 34.398 3.411C44.9398 9.97641 48.1631 23.8445 41.5977 34.3862C35.0323 44.928 21.1641 48.1514 10.6224 41.5859L1.25295 44.9308C1.15202 44.9674 1.04547 44.9857 0.938134 44.9852C0.822451 44.9854 0.707821 44.964 0.599868 44.9224C0.117106 44.7361 -0.12322 44.1937 0.0630856 43.7109L3.56161 34.6338C1.24091 31.0134 0.00686891 26.8036 0.00599052 22.5033ZM29.4754 24.4679C30.9127 25.2174 33.2082 26.3418 33.2082 26.3418C33.5287 26.4996 33.7314 26.8259 33.7311 27.1833V29.0571C33.2598 31.786 30.8787 33.7703 28.1095 33.7418C25.1656 33.7418 19.514 30.2226 17.1397 27.8465C14.7655 25.4705 11.2444 19.8188 11.2444 16.8768C11.216 14.1076 13.2002 11.7265 15.9291 11.2551H17.803C18.1566 11.2555 18.4797 11.4548 18.6388 11.7705C18.6388 11.7723 19.7724 14.066 20.5126 15.5051C21.3465 17.1316 19.7818 19.0411 18.8898 19.9425C19.4274 21.3425 20.239 22.6211 21.2772 23.7034C22.3596 24.7413 23.6382 25.553 25.0381 26.0907C25.9376 25.1987 27.8489 23.6303 29.4754 24.4679Z" />
+                     </g>
+                     <defs>
+                        <clipPath id="clip0_206_466">
+                           <rect width="45" height="45" fill="white" />
+                        </clipPath>
+                     </defs>
+                  </svg>
+               </a>
+               <a href="#" class="social">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" fill="none">
+                     <path
+                        d="M22.5 45C34.9294 45 45 34.9294 45 22.5C45 10.0706 34.9294 0 22.5 0C10.0706 0 0 10.0706 0 22.5C0 34.9294 10.0706 45 22.5 45ZM10.2956 22.0125L31.9894 13.6481C32.9963 13.2844 33.8756 13.8938 33.5494 15.4163L33.5512 15.4144L29.8575 32.8162C29.5837 34.05 28.8506 34.35 27.825 33.7687L22.2 29.6231L19.4869 32.2369C19.1869 32.5369 18.9338 32.79 18.3525 32.79L18.7519 27.0656L29.1769 17.6475C29.6306 17.2481 29.0756 17.0231 28.4775 17.4206L15.5944 25.5319L10.0406 23.7994C8.835 23.4169 8.80875 22.5938 10.2956 22.0125Z" />
+                  </svg>
+               </a>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+      <main class="page">
+         <section class="main-block">
+            <div class="container">
+               <div class="main-block__content">
+                  <div class="main-block__location flex-box align-items-center">
+                     <img src="img/main-block/icons/location.svg" alt="">
+                     <p>Москва, Санкт-Петербург</p>
+                  </div>
+                  <h1 class="main-block__title">
+                     Проектирование, монтаж
+                     и обслуживание систем контроля доступа
+                  </h1>
+               </div>
+               <div class="main-block__bg">
+                  <img src="img/main-block/01.png" alt="">
+               </div>
+            </div>
+         </section>
+         <div class="index-row margin-bottom-row">
+            <div class="container">
+               <div class="advantages">
+                  <div class="advantages__item">
+                     <div class="advantages__icon">
+                        <img src="img/advantages/01.svg" alt="">
+                     </div>
+                     <div class="advantages__text">
+                        Бесплатный выезд инжинера
+                     </div>
+                  </div>
+                  <div class="advantages__item">
+                     <div class="advantages__icon">
+                        <img src="img/advantages/02.svg" alt="">
+                     </div>
+                     <div class="advantages__text">
+                        Опыт монтажа <br>
+                        более 10 лет
+                     </div>
+                  </div>
+                  <div class="advantages__item">
+                     <div class="advantages__icon">
+                        <img src="img/advantages/03.svg" alt="">
+                     </div>
+                     <div class="advantages__text">
+                        Гибкая система <br>
+                        скидок и оплат
+                     </div>
+                  </div>
+                  <div class="advantages__item">
+                     <div class="advantages__icon">
+                        <img src="img/advantages/04.svg" alt="">
+                     </div>
+                     <div class="advantages__text">
+                        Сертифицированные инжинеры
+                     </div>
+                  </div>
+                  <div class="advantages__item">
+                     <div class="advantages__icon">
+                        <img src="img/advantages/05.svg" alt="">
+                     </div>
+                     <div class="advantages__text">
+                        Профессиональное оборудование
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <section class="index-row padding-top-row bg" id="services">
+            <div class="container">
+               <div class="title">
+                  Тарифы
+               </div>
+               <div class="services">
+                  <div class="services__row grid-box col-2 more-block" data-items="4">
+                     <div class="services__item more-block-item">
+                        <div class="services__info">
+                           <div class="services__top">
+                              <div class="services__title">
+                                 Контроль доступа <br>
+                                 на двери
+                              </div>
+                              <div class="services__mobile">
+                                 <img src="img/services/01.png" alt="">
+                              </div>
+                           </div>
+                           <div class="services__body">
+                              <div class="services__text">
+                                 Организация доступа по бесконтактным идентификаторам или биометрическим данным
+                              </div>
+                              <div class="services__price">
+                                 от <span>15 000</span> ₽
+                              </div>
+                           </div>
+                        </div>
+                        <div class="services__img">
+                           <img src="img/services/01.png" alt="">
+                        </div>
+                     </div>
+                     <div class="services__item more-block-item">
+                        <div class="services__info">
+                           <div class="services__top">
+                              <div class="services__title">
+                                 Контроль доступа <br>
+                                 с помощью шлагбаума
+                              </div>
+                              <div class="services__mobile">
+                                 <img src="img/services/02.png" alt="">
+                              </div>
+                           </div>
+                           <div class="services__body">
+                              <div class="services__text">
+                                 Организация пропуска спецтранспорта, коммунальной и уборочной техники, аварийных служб
+                              </div>
+                              <div class="services__price">
+                                 от <span>70 000</span> ₽
+                              </div>
+                           </div>
+                        </div>
+                        <div class="services__img">
+                           <img src="img/services/02.png" alt="">
+                        </div>
+                     </div>
+                     <div class="services__item more-block-item">
+                        <div class="services__info">
+                           <div class="services__top">
+                              <div class="services__title">
+                                 Установка видеонаблюдения
+                              </div>
+                              <div class="services__mobile">
+                                 <img src="img/services/03.png" alt="">
+                              </div>
+                           </div>
+                           <div class="services__body">
+                              <div class="services__text">
+                                 Осуществляется прокладка кабельных линий, монтаж и подключение оборудования после
+                                 предварительных исследований. Далее этап настройки
+                              </div>
+                              <div class="services__price">
+                                 от <span>12 000</span> ₽
+                              </div>
+                           </div>
+                        </div>
+                        <div class="services__img">
+                           <img src="img/services/03.png" alt="">
+                        </div>
+                     </div>
+                     <div class="services__item more-block-item">
+                        <div class="services__info">
+                           <div class="services__top">
+                              <div class="services__title">
+                                 Контроль доступа <br>
+                                 с помощью турникета
+                              </div>
+                              <div class="services__mobile">
+                                 <img src="img/services/04.png" alt="">
+                              </div>
+                           </div>
+                           <div class="services__body">
+                              <div class="services__text">
+                                 Организация доступа по бесконтактным идентификаторам или биометрическим данным
+                              </div>
+                              <div class="services__price">
+                                 от <span>60 000</span> ₽
+                              </div>
+                           </div>
+                        </div>
+                        <div class="services__img">
+                           <img src="img/services/04.png" alt="">
+                        </div>
+                     </div>
+                     <div class="services__item more-block-item">
+                        <div class="services__info">
+                           <div class="services__top">
+                              <div class="services__title">
+                                 Контроль доступа <br>
+                                 на двери
+                              </div>
+                              <div class="services__mobile">
+                                 <img src="img/services/01.png" alt="">
+                              </div>
+                           </div>
+                           <div class="services__body">
+                              <div class="services__text">
+                                 Организация доступа по бесконтактным идентификаторам или биометрическим данным
+                              </div>
+                              <div class="services__price">
+                                 от <span>15 000</span> ₽
+                              </div>
+                           </div>
+                        </div>
+                        <div class="services__img">
+                           <img src="img/services/01.png" alt="">
+                        </div>
+                     </div>
+                     <div class="services__item more-block-item">
+                        <div class="services__info">
+                           <div class="services__top">
+                              <div class="services__title">
+                                 Контроль доступа <br>
+                                 с помощью шлагбаума
+                              </div>
+                              <div class="services__mobile">
+                                 <img src="img/services/02.png" alt="">
+                              </div>
+                           </div>
+                           <div class="services__body">
+                              <div class="services__text">
+                                 Организация пропуска спецтранспорта, коммунальной и уборочной техники, аварийных служб
+                              </div>
+                              <div class="services__price">
+                                 от <span>70 000</span> ₽
+                              </div>
+                           </div>
+                        </div>
+                        <div class="services__img">
+                           <img src="img/services/02.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="button-more">
+                     <a href="#">Смотреть больше</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row padding-top-row margin-bottom-row-big margin-up bg white" id="stages-work">
+            <div class="container">
+               <div class="stages-work">
+                  <div class="title">
+                     Этапы работ
+                  </div>
+                  <ol class="stages-work__list grid-box col-2">
+                     <li class="stages-work__item">
+                        <div class="stages-work__number"></div>
+                        <div class="stages-work__info">
+                           <div class="stages-work__title">
+                              Заявка и консультация
+                           </div>
+                           <div class="stages-work__text">
+                              Слушаем ваши пожелания, при необходимости отправляем к вам нашего инженера, готовим
+                              предварительный расчёт стоимости.
+                           </div>
+                        </div>
+                     </li>
+                     <li class="stages-work__item">
+                        <div class="stages-work__number"></div>
+                        <div class="stages-work__info">
+                           <div class="stages-work__title">
+                              Осмотр и уточнение деталей
+                           </div>
+                           <div class="stages-work__text">
+                              Слушаем ваши пожелания, при необходимости отправляем к вам нашего инженера, готовим
+                              предварительный расчёт стоимости.
+                           </div>
+                        </div>
+                     </li>
+                     <li class="stages-work__item">
+                        <div class="stages-work__number"></div>
+                        <div class="stages-work__info">
+                           <div class="stages-work__title">
+                              Подготовка КП
+                           </div>
+                           <div class="stages-work__text">
+                              Слушаем ваши пожелания, при необходимости отправляем к вам нашего инженера, готовим
+                              предварительный расчёт стоимости.
+                           </div>
+                        </div>
+                     </li>
+                     <li class="stages-work__item">
+                        <div class="stages-work__number"></div>
+                        <div class="stages-work__info">
+                           <div class="stages-work__title">
+                              Согласование и подписание договора
+                           </div>
+                           <div class="stages-work__text">
+                              Слушаем ваши пожелания, при необходимости отправляем к вам нашего инженера, готовим
+                              предварительный расчёт стоимости.
+                           </div>
+                        </div>
+                     </li>
+                     <li class="stages-work__item">
+                        <div class="stages-work__number"></div>
+                        <div class="stages-work__info">
+                           <div class="stages-work__title">
+                              Начало монтажных работ
+                           </div>
+                           <div class="stages-work__text">
+                              Слушаем ваши пожелания, при необходимости отправляем к вам нашего инженера, готовим
+                              предварительный расчёт стоимости.
+                           </div>
+                        </div>
+                     </li>
+                     <li class="stages-work__item">
+                        <div class="stages-work__number"></div>
+                        <div class="stages-work__info">
+                           <div class="stages-work__title">
+                              Настройка системы и обучение
+                           </div>
+                           <div class="stages-work__text">
+                              Слушаем ваши пожелания, при необходимости отправляем к вам нашего инженера, готовим
+                              предварительный расчёт стоимости.
+                           </div>
+                        </div>
+                     </li>
+                     <li class="stages-work__item">
+                        <div class="stages-work__number"></div>
+                        <div class="stages-work__info">
+                           <div class="stages-work__title">
+                              Приёмка работ и подписание актов
+                           </div>
+                           <div class="stages-work__text">
+                              Слушаем ваши пожелания, при необходимости отправляем к вам нашего инженера, готовим
+                              предварительный расчёт стоимости.
+                           </div>
+                        </div>
+                     </li>
+                     <li class="stages-work__item">
+                        <div class="stages-work__number"></div>
+                        <div class="stages-work__info">
+                           <div class="stages-work__title">
+                              Обслуживание и тех. поддержка
+                           </div>
+                           <div class="stages-work__text">
+                              Слушаем ваши пожелания, при необходимости отправляем к вам нашего инженера, готовим
+                              предварительный расчёт стоимости.
+                           </div>
+                        </div>
+                     </li>
+                  </ol>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row-big">
+            <div class="container">
+               <div class="consultation">
+                  <div class="title center">
+                     Заказать <span>бесплатную</span> консультацию
+                  </div>
+                  <div class="consultation__form">
+                     <form action="#">
+                        <div class="form-row">
+                           <div class="form-item">
+                              <div class="form-input">
+                                 <input type="text" id="phone" type="tel">
+                                 <label for="phone">
+                                    <span>*</span>+ 7 (900) 000 - 00 -- 00
+                                 </label>
+                              </div>
+                              <small>
+                                 Укажите корректные данные
+                              </small>
+                           </div>
+                        </div>
+                        <div class="form-submit">
+                           <button type="submit" class="button">
+                              <span>
+                                 Свяжитесь со мной
+                              </span>
+                           </button>
+                        </div>
+                        <div class="form-agreement">
+                           <input id="check" type="checkbox" checked>
+                           <label for="check">Согласен на обработку <a href="#">персональных данных</a></label>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="consultation__text">
+                     Или напишите нам в соцсетях:
+                  </div>
+                  <div class="consultation__social">
+                     <a href="#" class="social">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" fill="none">
+                           <g>
+                              <path fill-rule="evenodd" clip-rule="evenodd"
+                                 d="M0.00599052 22.5033C0.00335536 10.0842 10.0689 0.0143647 22.4879 0.0117296C26.698 0.00760115 30.8245 1.18534 34.398 3.411C44.9398 9.97641 48.1631 23.8445 41.5977 34.3862C35.0323 44.928 21.1641 48.1514 10.6224 41.5859L1.25295 44.9308C1.15202 44.9674 1.04547 44.9857 0.938134 44.9852C0.822451 44.9854 0.707821 44.964 0.599868 44.9224C0.117106 44.7361 -0.12322 44.1937 0.0630856 43.7109L3.56161 34.6338C1.24091 31.0134 0.00686891 26.8036 0.00599052 22.5033ZM29.4754 24.4679C30.9127 25.2174 33.2082 26.3418 33.2082 26.3418C33.5287 26.4996 33.7314 26.8259 33.7311 27.1833V29.0571C33.2598 31.786 30.8787 33.7703 28.1095 33.7418C25.1656 33.7418 19.514 30.2226 17.1397 27.8465C14.7655 25.4705 11.2444 19.8188 11.2444 16.8768C11.216 14.1076 13.2002 11.7265 15.9291 11.2551H17.803C18.1566 11.2555 18.4797 11.4548 18.6388 11.7705C18.6388 11.7723 19.7724 14.066 20.5126 15.5051C21.3465 17.1316 19.7818 19.0411 18.8898 19.9425C19.4274 21.3425 20.239 22.6211 21.2772 23.7034C22.3596 24.7413 23.6382 25.553 25.0381 26.0907C25.9376 25.1987 27.8489 23.6303 29.4754 24.4679Z" />
+                           </g>
+                           <defs>
+                              <clipPath id="clip0_206_466">
+                                 <rect width="45" height="45" fill="white" />
+                              </clipPath>
+                           </defs>
+                        </svg>
+                     </a>
+                     <a href="#" class="social">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" fill="none">
+                           <path
+                              d="M22.5 45C34.9294 45 45 34.9294 45 22.5C45 10.0706 34.9294 0 22.5 0C10.0706 0 0 10.0706 0 22.5C0 34.9294 10.0706 45 22.5 45ZM10.2956 22.0125L31.9894 13.6481C32.9963 13.2844 33.8756 13.8938 33.5494 15.4163L33.5512 15.4144L29.8575 32.8162C29.5837 34.05 28.8506 34.35 27.825 33.7687L22.2 29.6231L19.4869 32.2369C19.1869 32.5369 18.9338 32.79 18.3525 32.79L18.7519 27.0656L29.1769 17.6475C29.6306 17.2481 29.0756 17.0231 28.4775 17.4206L15.5944 25.5319L10.0406 23.7994C8.835 23.4169 8.80875 22.5938 10.2956 22.0125Z" />
+                        </svg>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row" id="discounts">
+            <div class="container">
+               <div class="title">Скидки и акции</div>
+               <div class="discounts grid-box col-2">
+                  <a href="#" data-hystmodal="#modal" class="discounts__item big">
+                     <div class="discounts__info">
+                        <div class="discounts__date">
+                           Действует до <span>01.08.2024</span> года
+                        </div>
+                        <div class="discounts__title">
+                           Скидка 20% на автоматизацию учёта времени
+                        </div>
+                        <div class="discounts__mobile">
+                           <img src="img/discounts/01.png" alt="">
+                        </div>
+                        <div class="discounts__link">
+                           Узнать подробнее
+                        </div>
+                     </div>
+                     <div class="discounts__img">
+                        <img src="img/discounts/01.png" alt="">
+                     </div>
+                  </a>
+                  <a href="#" data-hystmodal="#modal" class="discounts__item">
+                     <div class="discounts__info">
+                        <div class="discounts__date">
+                           Действует до <span>01.08.2024</span> года
+                        </div>
+                        <div class="discounts__title">
+                           Скидка 20% на автоматизацию учёта времени
+                        </div>
+                        <div class="discounts__mobile">
+                           <img src="img/discounts/01.png" alt="">
+                        </div>
+                        <div class="discounts__link">
+                           Узнать подробнее
+                        </div>
+                     </div>
+                     <div class="discounts__img">
+                        <img src="img/discounts/01.png" alt="">
+                     </div>
+                  </a>
+                  <a href="#" data-hystmodal="#modal" class="discounts__item">
+                     <div class="discounts__info">
+                        <div class="discounts__date">
+                           Действует до <span>01.08.2024</span> года
+                        </div>
+                        <div class="discounts__title">
+                           Скидка 20% на автоматизацию учёта времени
+                        </div>
+                        <div class="discounts__mobile">
+                           <img src="img/discounts/01.png" alt="">
+                        </div>
+                        <div class="discounts__link">
+                           Узнать подробнее
+                        </div>
+                     </div>
+                     <div class="discounts__img">
+                        <img src="img/discounts/01.png" alt="">
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </section>
+         <section class="index-row padding-top-row bg" id="reviews">
+            <div class="container">
+               <div class="title">
+                  Отзывы
+               </div>
+               <div class="reviews">
+                  <div class="reviews__row grid-box col-2 more-block" data-items="2">
+                     <div class="reviews__item more-block-item">
+                        <div class="reviews__top">
+                           <div class="reviews__logo">
+                              <img src="img/reviews/01.png" alt="">
+                           </div>
+                           <div class="reviews__name">
+                              ООО «Клевер»
+                           </div>
+                        </div>
+                        <div class="reviews__text">
+                           Что могу сказать, в целом контора весьма и весьма привлекательная. Первое что бросается в
+                           глаза, это конечно весьма невысокие расценки, конечно возникают где то на подсознании
+                           подозрения на тем того, а какое же качество товара будет за такие деньги, но тут нечего
+                           волноваться, потому что с качеством как раз проблем нет никаких, всё в полном порядке, это я
+                           убедился на собственном опыте. И ещё что конечно не главное, но приятно дополняет всю картину
+                           – очень хорошее отношение к клиентам, менеджеры действительно вежливые и внимательные ребята,
+                           которые в деле своём знают толк, так что молодцы все!
+                        </div>
+                        <div class="reviews__date">
+                           15.06.2023
+                        </div>
+                        <a href="#" class="reviews__more">Читать полностью</a>
+                     </div>
+                     <div class="reviews__item more-block-item">
+                        <div class="reviews__top">
+                           <div class="reviews__logo">
+                              <img src="img/reviews/02.png" alt="">
+                           </div>
+                           <div class="reviews__name">
+                              ООО «Калинин и Ко»
+                           </div>
+                        </div>
+                        <div class="reviews__text">
+                           Что могу сказать, в целом контора весьма и весьма привлекательная. Первое что бросается в
+                           глаза, это конечно весьма невысокие расценки, конечно возникают где то на подсознании
+                           подозрения на тем того, а какое же качество товара будет за такие деньги, но тут нечего
+                           волноваться, потому что с качеством как раз проблем нет никаких, всё в полном порядке, это я
+                           убедился на собственном опыте. И ещё что конечно не главное, но приятно дополняет всю картину
+                           – очень хорошее отношение к клиентам, менеджеры действительно вежливые и внимательные ребята,
+                           которые в деле своём знают толк, так что молодцы все!
+                        </div>
+                        <div class="reviews__date">
+                           15.06.2023
+                        </div>
+                        <a href="#" class="reviews__more">Читать полностью</a>
+                     </div>
+                     <div class="reviews__item more-block-item">
+                        <div class="reviews__top">
+                           <div class="reviews__logo">
+                              <img src="img/reviews/01.png" alt="">
+                           </div>
+                           <div class="reviews__name">
+                              ООО «Клевер»
+                           </div>
+                        </div>
+                        <div class="reviews__text">
+                           Что могу сказать, в целом контора весьма и весьма привлекательная. Первое что бросается в
+                           глаза, это конечно весьма невысокие расценки, конечно возникают где то на подсознании
+                           подозрения на тем того, а какое же качество товара будет за такие деньги, но тут нечего
+                           волноваться, потому что с качеством как раз проблем нет никаких, всё в полном порядке, это я
+                           убедился на собственном опыте. И ещё что конечно не главное, но приятно дополняет всю картину
+                           – очень хорошее отношение к клиентам, менеджеры действительно вежливые и внимательные ребята,
+                           которые в деле своём знают толк, так что молодцы все!
+                        </div>
+                        <div class="reviews__date">
+                           15.06.2023
+                        </div>
+                        <a href="#" class="reviews__more">Читать полностью</a>
+                     </div>
+                     <div class="reviews__item more-block-item">
+                        <div class="reviews__top">
+                           <div class="reviews__logo">
+                              <img src="img/reviews/02.png" alt="">
+                           </div>
+                           <div class="reviews__name">
+                              ООО «Калинин и Ко»
+                           </div>
+                        </div>
+                        <div class="reviews__text">
+                           Что могу сказать, в целом контора весьма и весьма привлекательная. Первое что бросается в
+                           глаза, это конечно весьма невысокие расценки, конечно возникают где то на подсознании
+                           подозрения на тем того, а какое же качество товара будет за такие деньги, но тут нечего
+                           волноваться, потому что с качеством как раз проблем нет никаких, всё в полном порядке, это я
+                           убедился на собственном опыте. И ещё что конечно не главное, но приятно дополняет всю картину
+                           – очень хорошее отношение к клиентам, менеджеры действительно вежливые и внимательные ребята,
+                           которые в деле своём знают толк, так что молодцы все!
+                        </div>
+                        <div class="reviews__date">
+                           15.06.2023
+                        </div>
+                        <a href="#" class="reviews__more">Читать полностью</a>
+                     </div>
+                  </div>
+                  <div class="button-more">
+                     <a href="#">Смотреть больше</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row padding-top-row margin-bottom-row-big margin-up bg white" id="calculator">
+            <div class="container">
+               <div class="title">
+                  Калькулятор стоимости
+               </div>
+               <div class="calculator grid-box col-2" id="calculator-vue">
+                  <div class="calculator__content">
+                     <div class="calculator-steps">
+                        <div class="calculator-steps__step">
+                           <div class="calculator-steps__title">
+                              <span>{{currentStep}}.</span> Где планируется установка?
+                           </div>
+                           <ul class="calculator-steps__options">
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="radio" value="1050" name="step-1">
+                                    <span>Коммерческое помещение</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="radio" value="2000" name="step-1">
+                                    <span>Кафе или ресторан</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="radio" value="3000" name="step-1">
+                                    <span>Частный дом</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="radio" value="4000" name="step-1">
+                                    <span>Другое</span>
+                                 </label>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="calculator-steps__step">
+                           <div class="calculator-steps__title">
+                              <span>{{currentStep}}.</span> Какой тип покрытия пола вы предпочитаете?
+                           </div>
+                           <ul class="calculator-steps__options">
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="radio" value="1500" name="step-2">
+                                    <span>Ламинат</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="radio" value="2480" name="step-2">
+                                    <span>Керамическая плитка</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="radio" value="3230" name="step-2">
+                                    <span>Паркет</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="radio" value="4005" name="step-2">
+                                    <span>Ковролин</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="radio" value="5000" name="step-2">
+                                    <span>Другое</span>
+                                 </label>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="calculator-steps__step">
+                           <div class="calculator-steps__title">
+                              <span>{{currentStep}}.</span> Какой стиль дизайна вам нравится?
+                           </div>
+                           <ul class="calculator-steps__options">
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="checkbox" value="1230" name="step-31">
+                                    <span>Современный</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="checkbox" value="2005" name="step-32">
+                                    <span>Классический</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="checkbox" value="3000" name="step-33">
+                                    <span>Лофт</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="checkbox" value="4005" name="step-34">
+                                    <span>Другое</span>
+                                 </label>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="calculator-steps__step">
+                           <div class="calculator-steps__title">
+                              <span>{{currentStep}}.</span> Какие дополнительные функции вам необходимы?
+                           </div>
+                           <ul class="calculator-steps__options">
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="checkbox" value="100305" name="step-41">
+                                    <span>Подогрев пола</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="checkbox" value="2005" name="step-42">
+                                    <span>Влагозащита</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="checkbox" value="3000" name="step-43">
+                                    <span>Звукоизоляция</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="checkbox" value="4005" name="step-44">
+                                    <span>Другое</span>
+                                 </label>
+                              </li>
+                              <li>
+                                 <label class="calculator-steps__item">
+                                    <input type="checkbox" value="400534" name="step-45">
+                                    <span>Разное</span>
+                                 </label>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="calculator__bottom">
+                        <div class="calculator__count">
+                           Осталось вопросов: <span>{{currentStep}}</span> из <span>{{steps}}</span>
+                        </div>
+                        <a href="#" class="calculator__btn" @click.prevent="nextStep">Далее</a>
+                     </div>
+                     <div class="calculator__restart">
+                        <p>Вы ответили на все вопросы</p>
+                        <a href="#" @click.prevent="restart">Начать сначала</a>
+                     </div>
+                  </div>
+                  <div class="calculator-result" :class="{ 'active': isResultActive }">
+                     <div class="calculator-result__beginning">
+                        <p>
+                           Стоимость работ зависит от многих факторов:
+                        </p>
+                        <ul>
+                           <li>
+                              вида выбранной охранной системы
+                           </li>
+                           <li>
+                              площади помещения
+                           </li>
+                           <li>
+                              целей установки обордуования
+                           </li>
+                           <li>
+                              наличия интернета и его скорости
+                           </li>
+                           <li>
+                              предварительного исследования
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="calculator-result__start">
+                        <div class="calculator-result__price">
+                           <p>Примерная стоимость:</p>
+                           <div>≈ <span>{{formattedResult}}</span> ₽</div>
+                        </div>
+                        <div class="calculator-result__answers">
+                           <ul>
+                           </ul>
+                        </div>
+                     </div>
+                     <a href="#" data-hystmodal="#modal" class="calculator-result__btn button">
+                        <span>Получить точный расчёт</span>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row padding-top-row bg" id="faq">
+            <div class="container">
+               <div class="title">
+                  Часто задаваемые вопросы
+               </div>
+               <div class="faq one">
+                  <div class="faq__item">
+                     <div class="faq__header">
+                        <p>Сколько дней занимает монтаж?</p>
+                        <span></span>
+                     </div>
+                     <div class="faq__body">
+                        <p>
+                           Это специалист, который занимается разработкой, проектированием, конструированием,
+                           изготовлением, эксплуатацией и обслуживанием различных технических устройств, машин,
+                           оборудования, систем и сооружений. Инженеры используют свои знания в области фундаментальных
+                           и прикладных наук для решения практических задач и создания новых технологий.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__header">
+                        <p>Сколько дней занимает монтаж?</p>
+                        <span></span>
+                     </div>
+                     <div class="faq__body">
+                        <p>
+                           Это специалист, который занимается разработкой, проектированием, конструированием,
+                           изготовлением, эксплуатацией и обслуживанием различных технических устройств, машин,
+                           оборудования, систем и сооружений. Инженеры используют свои знания в области фундаментальных
+                           и прикладных наук для решения практических задач и создания новых технологий.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__header">
+                        <p>Сколько дней занимает монтаж?</p>
+                        <span></span>
+                     </div>
+                     <div class="faq__body">
+                        <p>
+                           Это специалист, который занимается разработкой, проектированием, конструированием,
+                           изготовлением, эксплуатацией и обслуживанием различных технических устройств, машин,
+                           оборудования, систем и сооружений. Инженеры используют свои знания в области фундаментальных
+                           и прикладных наук для решения практических задач и создания новых технологий.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__header">
+                        <p>Сколько дней занимает монтаж?</p>
+                        <span></span>
+                     </div>
+                     <div class="faq__body">
+                        <p>
+                           Это специалист, который занимается разработкой, проектированием, конструированием,
+                           изготовлением, эксплуатацией и обслуживанием различных технических устройств, машин,
+                           оборудования, систем и сооружений. Инженеры используют свои знания в области фундаментальных
+                           и прикладных наук для решения практических задач и создания новых технологий.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__header">
+                        <p>Сколько дней занимает монтаж?</p>
+                        <span></span>
+                     </div>
+                     <div class="faq__body">
+                        <p>
+                           Это специалист, который занимается разработкой, проектированием, конструированием,
+                           изготовлением, эксплуатацией и обслуживанием различных технических устройств, машин,
+                           оборудования, систем и сооружений. Инженеры используют свои знания в области фундаментальных
+                           и прикладных наук для решения практических задач и создания новых технологий.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__header">
+                        <p>Сколько дней занимает монтаж?</p>
+                        <span></span>
+                     </div>
+                     <div class="faq__body">
+                        <p>
+                           Это специалист, который занимается разработкой, проектированием, конструированием,
+                           изготовлением, эксплуатацией и обслуживанием различных технических устройств, машин,
+                           оборудования, систем и сооружений. Инженеры используют свои знания в области фундаментальных
+                           и прикладных наук для решения практических задач и создания новых технологий.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row padding-top-row margin-bottom-row-big margin-up bg white">
+            <div class="container">
+               <div class="title">
+                  Наши партнёры
+               </div>
+               <div class="partners">
+                  <div class="partners__slide">
+                     <div class="partners__item">
+                        <div class="partners__logo">
+                           <img src="img/partners/01.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="partners__slide">
+                     <div class="partners__item">
+                        <div class="partners__logo">
+                           <img src="img/partners/02.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="partners__slide">
+                     <div class="partners__item">
+                        <div class="partners__logo">
+                           <img src="img/partners/03.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="partners__slide">
+                     <div class="partners__item">
+                        <div class="partners__logo">
+                           <img src="img/partners/04.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="partners__slide">
+                     <div class="partners__item">
+                        <div class="partners__logo">
+                           <img src="img/partners/05.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="partners__slide">
+                     <div class="partners__item">
+                        <div class="partners__logo">
+                           <img src="img/partners/03.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row-big" id="about">
+            <div class="container">
+               <div class="title">
+                  О компании
+               </div>
+            </div>
+            <div class="about">
+               <div class="about__img">
+                  <img src="img/about/01.png" alt="">
+               </div>
+               <div class="about__info">
+                  <div class="about__logo">
+                     <img src="img/logo.png" alt="">
+                  </div>
+                  <div class="about__content">
+                     Наша фирма - гарант безопасности и спокойной жизни. <br>
+                     Мы готовы помочь вам защитить материальные ценности. <br>
+                     В спектр наших услуг входит: мониторинг местности и помещения, которым требуется защита,
+                     проектирование, установка, обслуживание и ремонт систем безопасности от ведущих производителей,
+                     систем видеонаблюдения и контроля доступа. <br>
+                     Весь вышеперечисленный сервис выполняют мастера, которые закончили высшие учебные заведения и
+                     регулярно проходят курсы повышения квалификации. Мы не отстаем от развития передовых технологий и
+                     активно внедряем их в нашу деятельность.
+                  </div>
+                  <div class="about__advantages grid-box col-4">
+                     <div class="advantages__item">
+                        <div class="advantages__icon">
+                           <img src="img/advantages/02.svg" alt="">
+                        </div>
+                        <div class="advantages__text">
+                           Опыт монтажа <br>
+                           более 10 лет
+                        </div>
+                     </div>
+                     <div class="advantages__item">
+                        <div class="advantages__icon">
+                           <img src="img/advantages/05.svg" alt="">
+                        </div>
+                        <div class="advantages__text">
+                           Профессиональное <br>
+                           оборудование
+                        </div>
+                     </div>
+                     <div class="advantages__item">
+                        <div class="advantages__icon">
+                           <img src="img/advantages/03.svg" alt="">
+                        </div>
+                        <div class="advantages__text">
+                           Гибкая система <br>
+                           оплат и скидок
+                        </div>
+                     </div>
+                     <div class="advantages__item">
+                        <div class="advantages__icon">
+                           <img src="img/advantages/01.svg" alt="">
+                        </div>
+                        <div class="advantages__text">
+                           Сертифицированные <br>
+                           инженеры
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row padding-top-row bg" id="specialists">
+            <div class="container">
+               <div class="title">
+                  Наши специалисты
+               </div>
+               <div class="specialists">
+                  <div class="specialists__row grid-box col-2 more-block" data-items="2">
+                     <div class="specialists__item more-block-item">
+                        <div class="specialists__photo">
+                           <img src="img/specialists/01.png" alt="">
+                        </div>
+                        <div class="specialists__name">
+                           Кузнецов Михаил Александрович
+                        </div>
+                        <div class="specialists__job">
+                           Главный инженер по установке и монтажу систем безопасности
+                        </div>
+                        <div class="specialists__info">
+                           Это специалист, который занимается разработкой, проектированием, конструированием,
+                           изготовлением, эксплуатацией и обслуживанием различных технических устройств, машин,
+                           оборудования, систем и сооружений. Инженеры используют свои знания в области фундаментальных
+                           и прикладных наук для решения практических задач и создания новых технологий.
+                        </div>
+                     </div>
+                     <div class="specialists__item more-block-item">
+                        <div class="specialists__photo">
+                           <img src="img/specialists/02.png" alt="">
+                        </div>
+                        <div class="specialists__name">
+                           Лебедев Аркадий Дмитриевич
+                        </div>
+                        <div class="specialists__job">
+                           Главный инженер по установке и монтажу видеонаблюдения
+                        </div>
+                        <div class="specialists__info">
+                           Это специалист, который занимается разработкой, проектированием, конструированием,
+                           изготовлением, эксплуатацией и обслуживанием различных технических устройств, машин,
+                           оборудования, систем и сооружений. Инженеры используют свои знания в области фундаментальных
+                           и прикладных наук для решения практических задач и создания новых технологий.
+                        </div>
+                     </div>
+                     <div class="specialists__item more-block-item">
+                        <div class="specialists__photo">
+                           <img src="img/specialists/01.png" alt="">
+                        </div>
+                        <div class="specialists__name">
+                           Кузнецов Михаил Александрович
+                        </div>
+                        <div class="specialists__job">
+                           Главный инженер по установке и монтажу систем безопасности
+                        </div>
+                        <div class="specialists__info">
+                           Это специалист, который занимается разработкой, проектированием, конструированием,
+                           изготовлением, эксплуатацией и обслуживанием различных технических устройств, машин,
+                           оборудования, систем и сооружений. Инженеры используют свои знания в области фундаментальных
+                           и прикладных наук для решения практических задач и создания новых технологий.
+                        </div>
+                     </div>
+                     <div class="specialists__item more-block-item">
+                        <div class="specialists__photo">
+                           <img src="img/specialists/02.png" alt="">
+                        </div>
+                        <div class="specialists__name">
+                           Лебедев Аркадий Дмитриевич
+                        </div>
+                        <div class="specialists__job">
+                           Главный инженер по установке и монтажу видеонаблюдения
+                        </div>
+                        <div class="specialists__info">
+                           Это специалист, который занимается разработкой, проектированием, конструированием,
+                           изготовлением, эксплуатацией и обслуживанием различных технических устройств, машин,
+                           оборудования, систем и сооружений. Инженеры используют свои знания в области фундаментальных
+                           и прикладных наук для решения практических задач и создания новых технологий.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="button-more">
+                     <a href="#">Смотреть больше</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row padding-top-row margin-bottom-row-big margin-up bg white" id="certificates">
+            <div class="container">
+               <div class="title">
+                  Cертификаты качества
+               </div>
+               <div class="certificates">
+                  <div class="certificates__slide">
+                     <a href="img/certificates/01.png" class="certificates__item" data-fancybox="certificates">
+                        <div class="certificates__img">
+                           <img src="img/certificates/01.png" alt="">
+                        </div>
+                     </a>
+                  </div>
+                  <div class="certificates__slide">
+                     <a href="img/certificates/02.png" class="certificates__item" data-fancybox="certificates">
+                        <div class="certificates__img">
+                           <img src="img/certificates/02.png" alt="">
+                        </div>
+                     </a>
+                  </div>
+                  <div class="certificates__slide">
+                     <a href="img/certificates/03.png" class="certificates__item" data-fancybox="certificates">
+                        <div class="certificates__img">
+                           <img src="img/certificates/03.png" alt="">
+                        </div>
+                     </a>
+                  </div>
+                  <div class="certificates__slide">
+                     <a href="img/certificates/04.png" class="certificates__item" data-fancybox="certificates">
+                        <div class="certificates__img">
+                           <img src="img/certificates/04.png" alt="">
+                        </div>
+                     </a>
+                  </div>
+                  <div class="certificates__slide">
+                     <a href="img/certificates/02.png" class="certificates__item" data-fancybox="certificates">
+                        <div class="certificates__img">
+                           <img src="img/certificates/02.png" alt="">
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row-big" id="contacts">
+            <div class="container">
+               <div class="title">
+                  Контакты
+               </div>
+               <div class="contacts grid-box">
+                  <div class="contacts__content">
+                     <div class="contacts__row">
+                        <div class="contacts__logo">
+                           <img src="img/logo.png" alt="">
+                        </div>
+                        <div class="contacts__info">
+                           <a href="tel:+70000000000" class="contacts__item">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                 <g>
+                                    <path
+                                       d="M7 6.2002V17.8002C7 18.9203 7 19.4801 7.21799 19.9079C7.40973 20.2842 7.71547 20.5905 8.0918 20.7822C8.5192 21 9.07899 21 10.1969 21H13.8031C14.921 21 15.48 21 15.9074 20.7822C16.2837 20.5905 16.5905 20.2842 16.7822 19.9079C17 19.4805 17 18.9215 17 17.8036V6.19691C17 5.07899 17 4.5192 16.7822 4.0918C16.5905 3.71547 16.2837 3.40973 15.9074 3.21799C15.4796 3 14.9203 3 13.8002 3H10.2002C9.08009 3 8.51962 3 8.0918 3.21799C7.71547 3.40973 7.40973 3.71547 7.21799 4.0918C7 4.51962 7 5.08009 7 6.2002Z"
+                                       stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                 </g>
+                              </svg>
+                              <span>+7 (000) 000-00-00</span>
+                           </a>
+                           <div class="contacts__item">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                 <g>
+                                    <path
+                                       d="M20 17.0007V11.4527C20 10.9184 19.9995 10.6511 19.9346 10.4024C19.877 10.1821 19.7825 9.97356 19.6546 9.78513C19.5102 9.5725 19.3096 9.39618 18.9074 9.04431L14.1074 4.84431C13.3608 4.19103 12.9875 3.86455 12.5674 3.74031C12.1972 3.63083 11.8026 3.63083 11.4324 3.74031C11.0126 3.86446 10.6398 4.19063 9.89436 4.84292L5.09277 9.04432C4.69064 9.39618 4.49004 9.5725 4.3457 9.78513C4.21779 9.97356 4.12255 10.1821 4.06497 10.4024C4 10.6511 4 10.9184 4 11.4527V17.0007C4 17.9325 4 18.3983 4.15224 18.7658C4.35523 19.2559 4.74432 19.6457 5.23438 19.8487C5.60192 20.0009 6.06786 20.001 6.99974 20.001C7.93163 20.001 8.39808 20.0009 8.76562 19.8487C9.25568 19.6457 9.64467 19.256 9.84766 18.7659C9.9999 18.3984 10 17.9324 10 17.0006V16.0006C10 14.896 10.8954 14.0006 12 14.0006C13.1046 14.0006 14 14.896 14 16.0006V17.0006C14 17.9324 14 18.3984 14.1522 18.7659C14.3552 19.256 14.7443 19.6457 15.2344 19.8487C15.6019 20.0009 16.0679 20.001 16.9997 20.001C17.9316 20.001 18.3981 20.0009 18.7656 19.8487C19.2557 19.6457 19.6447 19.2559 19.8477 18.7658C19.9999 18.3983 20 17.9325 20 17.0007Z"
+                                       stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                 </g>
+                              </svg>
+                              <span>г. Москва, ул. Пушкина, 43</span>
+                           </div>
+                           <div class="contacts__item">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                 <g>
+                                    <path
+                                       d="M12 7V12H17M12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21Z"
+                                       stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                 </g>
+                              </svg>
+                              <span>8:00 - 18:00</span>
+                           </div>
+                           <a href="mailto:ooocompany@mail.ru" class="contacts__item">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                                 <g>
+                                    <path
+                                       d="M4.5 6.5L10.1076 10.6123L10.1097 10.614C10.7878 11.1113 11.1271 11.3601 11.4988 11.4562C11.8272 11.5412 12.1725 11.5412 12.501 11.4562C12.8729 11.36 13.2132 11.1105 13.8926 10.6123L19.5002 6.5M3 15.8002V8.2002C3 7.08009 3 6.51962 3.21799 6.0918C3.40973 5.71547 3.71547 5.40973 4.0918 5.21799C4.51962 5 5.08009 5 6.2002 5H17.8002C18.9203 5 19.4796 5 19.9074 5.21799C20.2837 5.40973 20.5905 5.71547 20.7822 6.0918C21 6.5192 21 7.07899 21 8.19691V15.8036C21 16.9215 21 17.4805 20.7822 17.9079C20.5905 18.2842 20.2837 18.5905 19.9074 18.7822C19.48 19 18.921 19 17.8031 19H6.19691C5.07899 19 4.5192 19 4.0918 18.7822C3.71547 18.5905 3.40973 18.2842 3.21799 17.9079C3 17.4801 3 16.9203 3 15.8002Z"
+                                       stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                 </g>
+                              </svg>
+                              <span>ooocompany@mail.ru</span>
+                           </a>
+                        </div>
+                        <a href="" class="contacts__btn button">
+                           <span>Свяжитесь со мной</span>
+                        </a>
+                        <div class="contacts__social flex-box align-items-center">
+                           <a href="#" class="social">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" fill="none">
+                                 <g>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                       d="M0.00599052 22.5033C0.00335536 10.0842 10.0689 0.0143647 22.4879 0.0117296C26.698 0.00760115 30.8245 1.18534 34.398 3.411C44.9398 9.97641 48.1631 23.8445 41.5977 34.3862C35.0323 44.928 21.1641 48.1514 10.6224 41.5859L1.25295 44.9308C1.15202 44.9674 1.04547 44.9857 0.938134 44.9852C0.822451 44.9854 0.707821 44.964 0.599868 44.9224C0.117106 44.7361 -0.12322 44.1937 0.0630856 43.7109L3.56161 34.6338C1.24091 31.0134 0.00686891 26.8036 0.00599052 22.5033ZM29.4754 24.4679C30.9127 25.2174 33.2082 26.3418 33.2082 26.3418C33.5287 26.4996 33.7314 26.8259 33.7311 27.1833V29.0571C33.2598 31.786 30.8787 33.7703 28.1095 33.7418C25.1656 33.7418 19.514 30.2226 17.1397 27.8465C14.7655 25.4705 11.2444 19.8188 11.2444 16.8768C11.216 14.1076 13.2002 11.7265 15.9291 11.2551H17.803C18.1566 11.2555 18.4797 11.4548 18.6388 11.7705C18.6388 11.7723 19.7724 14.066 20.5126 15.5051C21.3465 17.1316 19.7818 19.0411 18.8898 19.9425C19.4274 21.3425 20.239 22.6211 21.2772 23.7034C22.3596 24.7413 23.6382 25.553 25.0381 26.0907C25.9376 25.1987 27.8489 23.6303 29.4754 24.4679Z" />
+                                 </g>
+                                 <defs>
+                                    <clipPath id="clip0_206_466">
+                                       <rect width="45" height="45" fill="white" />
+                                    </clipPath>
+                                 </defs>
+                              </svg>
+                           </a>
+                           <a href="#" class="social">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" fill="none">
+                                 <path
+                                    d="M22.5 45C34.9294 45 45 34.9294 45 22.5C45 10.0706 34.9294 0 22.5 0C10.0706 0 0 10.0706 0 22.5C0 34.9294 10.0706 45 22.5 45ZM10.2956 22.0125L31.9894 13.6481C32.9963 13.2844 33.8756 13.8938 33.5494 15.4163L33.5512 15.4144L29.8575 32.8162C29.5837 34.05 28.8506 34.35 27.825 33.7687L22.2 29.6231L19.4869 32.2369C19.1869 32.5369 18.9338 32.79 18.3525 32.79L18.7519 27.0656L29.1769 17.6475C29.6306 17.2481 29.0756 17.0231 28.4775 17.4206L15.5944 25.5319L10.0406 23.7994C8.835 23.4169 8.80875 22.5938 10.2956 22.0125Z" />
+                              </svg>
+                           </a>
+                           <a href="#" class="social">
+                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 45" fill="none">
+                                 <g>
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                       d="M29.5794 6.19096L39.4999 7.06099C42.9014 7.33547 45.5169 10.1847 45.5001 13.5972V31.4096C45.5185 34.8188 42.9091 37.6675 39.5113 37.9477L29.5851 38.8101C27.4026 39.0014 25.2051 39.0951 23.0057 39.0951C20.8063 39.0951 18.6088 38.9976 16.4263 38.8101L6.5001 37.9477C3.09786 37.6731 0.482162 34.8228 0.500092 31.4096V13.5972C0.483217 10.1847 3.09857 7.33556 6.5001 7.06099L16.4207 6.19096C20.7986 5.81004 25.2014 5.81004 29.5794 6.19096ZM18.8206 13.2789L31.9455 21.7164V21.7144C32.0583 21.787 32.1543 21.8829 32.2268 21.9957C32.5069 22.4312 32.3809 23.0113 31.9455 23.2914L18.8206 31.7288C18.6693 31.8265 18.493 31.8784 18.3129 31.8785C17.7951 31.8787 17.3752 31.4591 17.375 30.9413V14.0664C17.3751 13.8863 17.427 13.71 17.5247 13.5587C17.8053 13.1235 18.3855 12.9983 18.8206 13.2789Z"
+                                       fill="" />
+                                 </g>
+                                 <defs>
+                                    <clipPath id="clip0_206_476">
+                                       <rect width="45" height="45" fill="white" transform="translate(0.5)" />
+                                    </clipPath>
+                                 </defs>
+                              </svg>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="contacts__map">
+                     <div id="map" class="map">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <a href="tel:+79000000000" class="btn-mobile"></a>
+      </main>
+      <footer class="footer" itemscope="" itemtype="https://schema.org/WPFooter">
+   <div class="container">
+      <div class="btn-up">
+         <a href="#">
+            наверх
+         </a>
+      </div>
+   </div>
+   <div class="footer__row">
+      <div class="container grid-box">
+         <div class="footer__info">
+            <a href="#" class="footer__logo">
+               <img src="img/logo-footer.png" alt="">
+            </a>
+            <div class="footer__copyright">
+               ©2005 - 2024 Company. Все права защищены
+            </div>
+            <a href="#" class="footer__link">Политика конфиденциальности</a>
+            <a href="#" class="footer__link">Пользовательское соглашение</a>
+         </div>
+         <div class="footer__contacts mobile">
+            <div class="footer__items">
+               <a href="tel:+70000000000" class="contacts__item">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                     <g>
+                        <path
+                           d="M7 6.2002V17.8002C7 18.9203 7 19.4801 7.21799 19.9079C7.40973 20.2842 7.71547 20.5905 8.0918 20.7822C8.5192 21 9.07899 21 10.1969 21H13.8031C14.921 21 15.48 21 15.9074 20.7822C16.2837 20.5905 16.5905 20.2842 16.7822 19.9079C17 19.4805 17 18.9215 17 17.8036V6.19691C17 5.07899 17 4.5192 16.7822 4.0918C16.5905 3.71547 16.2837 3.40973 15.9074 3.21799C15.4796 3 14.9203 3 13.8002 3H10.2002C9.08009 3 8.51962 3 8.0918 3.21799C7.71547 3.40973 7.40973 3.71547 7.21799 4.0918C7 4.51962 7 5.08009 7 6.2002Z"
+                           stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                     </g>
+                  </svg>
+                  <span>+7 (000) 000-00-00</span>
+               </a>
+               <div class="contacts__item">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                     <g>
+                        <path
+                           d="M20 17.0007V11.4527C20 10.9184 19.9995 10.6511 19.9346 10.4024C19.877 10.1821 19.7825 9.97356 19.6546 9.78513C19.5102 9.5725 19.3096 9.39618 18.9074 9.04431L14.1074 4.84431C13.3608 4.19103 12.9875 3.86455 12.5674 3.74031C12.1972 3.63083 11.8026 3.63083 11.4324 3.74031C11.0126 3.86446 10.6398 4.19063 9.89436 4.84292L5.09277 9.04432C4.69064 9.39618 4.49004 9.5725 4.3457 9.78513C4.21779 9.97356 4.12255 10.1821 4.06497 10.4024C4 10.6511 4 10.9184 4 11.4527V17.0007C4 17.9325 4 18.3983 4.15224 18.7658C4.35523 19.2559 4.74432 19.6457 5.23438 19.8487C5.60192 20.0009 6.06786 20.001 6.99974 20.001C7.93163 20.001 8.39808 20.0009 8.76562 19.8487C9.25568 19.6457 9.64467 19.256 9.84766 18.7659C9.9999 18.3984 10 17.9324 10 17.0006V16.0006C10 14.896 10.8954 14.0006 12 14.0006C13.1046 14.0006 14 14.896 14 16.0006V17.0006C14 17.9324 14 18.3984 14.1522 18.7659C14.3552 19.256 14.7443 19.6457 15.2344 19.8487C15.6019 20.0009 16.0679 20.001 16.9997 20.001C17.9316 20.001 18.3981 20.0009 18.7656 19.8487C19.2557 19.6457 19.6447 19.2559 19.8477 18.7658C19.9999 18.3983 20 17.9325 20 17.0007Z"
+                           stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                     </g>
+                  </svg>
+                  <span>г. Москва, ул. Пушкина, 43</span>
+               </div>
+               <a href="mailto:ooocompany@mail.ru" class="contacts__item">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                     <g>
+                        <path
+                           d="M4.5 6.5L10.1076 10.6123L10.1097 10.614C10.7878 11.1113 11.1271 11.3601 11.4988 11.4562C11.8272 11.5412 12.1725 11.5412 12.501 11.4562C12.8729 11.36 13.2132 11.1105 13.8926 10.6123L19.5002 6.5M3 15.8002V8.2002C3 7.08009 3 6.51962 3.21799 6.0918C3.40973 5.71547 3.71547 5.40973 4.0918 5.21799C4.51962 5 5.08009 5 6.2002 5H17.8002C18.9203 5 19.4796 5 19.9074 5.21799C20.2837 5.40973 20.5905 5.71547 20.7822 6.0918C21 6.5192 21 7.07899 21 8.19691V15.8036C21 16.9215 21 17.4805 20.7822 17.9079C20.5905 18.2842 20.2837 18.5905 19.9074 18.7822C19.48 19 18.921 19 17.8031 19H6.19691C5.07899 19 4.5192 19 4.0918 18.7822C3.71547 18.5905 3.40973 18.2842 3.21799 17.9079C3 17.4801 3 16.9203 3 15.8002Z"
+                           stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                     </g>
+                  </svg>
+                  <span>ooocompany@mail.ru</span>
+               </a>
+            </div>
+            <div class="footer__social">
+               <a href="#" class="social">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" fill="none">
+                     <g>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                           d="M0.00599052 22.5033C0.00335536 10.0842 10.0689 0.0143647 22.4879 0.0117296C26.698 0.00760115 30.8245 1.18534 34.398 3.411C44.9398 9.97641 48.1631 23.8445 41.5977 34.3862C35.0323 44.928 21.1641 48.1514 10.6224 41.5859L1.25295 44.9308C1.15202 44.9674 1.04547 44.9857 0.938134 44.9852C0.822451 44.9854 0.707821 44.964 0.599868 44.9224C0.117106 44.7361 -0.12322 44.1937 0.0630856 43.7109L3.56161 34.6338C1.24091 31.0134 0.00686891 26.8036 0.00599052 22.5033ZM29.4754 24.4679C30.9127 25.2174 33.2082 26.3418 33.2082 26.3418C33.5287 26.4996 33.7314 26.8259 33.7311 27.1833V29.0571C33.2598 31.786 30.8787 33.7703 28.1095 33.7418C25.1656 33.7418 19.514 30.2226 17.1397 27.8465C14.7655 25.4705 11.2444 19.8188 11.2444 16.8768C11.216 14.1076 13.2002 11.7265 15.9291 11.2551H17.803C18.1566 11.2555 18.4797 11.4548 18.6388 11.7705C18.6388 11.7723 19.7724 14.066 20.5126 15.5051C21.3465 17.1316 19.7818 19.0411 18.8898 19.9425C19.4274 21.3425 20.239 22.6211 21.2772 23.7034C22.3596 24.7413 23.6382 25.553 25.0381 26.0907C25.9376 25.1987 27.8489 23.6303 29.4754 24.4679Z" />
+                     </g>
+                     <defs>
+                        <clipPath id="clip0_206_466">
+                           <rect width="45" height="45" fill="white" />
+                        </clipPath>
+                     </defs>
+                  </svg>
+               </a>
+               <a href="#" class="social">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" fill="none">
+                     <path
+                        d="M22.5 45C34.9294 45 45 34.9294 45 22.5C45 10.0706 34.9294 0 22.5 0C10.0706 0 0 10.0706 0 22.5C0 34.9294 10.0706 45 22.5 45ZM10.2956 22.0125L31.9894 13.6481C32.9963 13.2844 33.8756 13.8938 33.5494 15.4163L33.5512 15.4144L29.8575 32.8162C29.5837 34.05 28.8506 34.35 27.825 33.7687L22.2 29.6231L19.4869 32.2369C19.1869 32.5369 18.9338 32.79 18.3525 32.79L18.7519 27.0656L29.1769 17.6475C29.6306 17.2481 29.0756 17.0231 28.4775 17.4206L15.5944 25.5319L10.0406 23.7994C8.835 23.4169 8.80875 22.5938 10.2956 22.0125Z" />
+                  </svg>
+               </a>
+               <a href="#" class="social">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 45" fill="none">
+                     <g>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                           d="M29.5794 6.19096L39.4999 7.06099C42.9014 7.33547 45.5169 10.1847 45.5001 13.5972V31.4096C45.5185 34.8188 42.9091 37.6675 39.5113 37.9477L29.5851 38.8101C27.4026 39.0014 25.2051 39.0951 23.0057 39.0951C20.8063 39.0951 18.6088 38.9976 16.4263 38.8101L6.5001 37.9477C3.09786 37.6731 0.482162 34.8228 0.500092 31.4096V13.5972C0.483217 10.1847 3.09857 7.33556 6.5001 7.06099L16.4207 6.19096C20.7986 5.81004 25.2014 5.81004 29.5794 6.19096ZM18.8206 13.2789L31.9455 21.7164V21.7144C32.0583 21.787 32.1543 21.8829 32.2268 21.9957C32.5069 22.4312 32.3809 23.0113 31.9455 23.2914L18.8206 31.7288C18.6693 31.8265 18.493 31.8784 18.3129 31.8785C17.7951 31.8787 17.3752 31.4591 17.375 30.9413V14.0664C17.3751 13.8863 17.427 13.71 17.5247 13.5587C17.8053 13.1235 18.3855 12.9983 18.8206 13.2789Z"
+                           fill="" />
+                     </g>
+                     <defs>
+                        <clipPath id="clip0_206_476">
+                           <rect width="45" height="45" fill="white" transform="translate(0.5)" />
+                        </clipPath>
+                     </defs>
+                  </svg>
+               </a>
+            </div>
+         </div>
+         <nav class="footer__nav">
+            <ul class="footer-menu">
+               <li class="footer-menu__item">
+                  <a href="#about" class="footer-menu__link">О компании</a>
+               </li>
+               <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__link">Этапы работ</a>
+               </li>
+               <li class="footer-menu__item">
+                  <a href="#stages-work" class="footer-menu__link">Отзывы</a>
+               </li>
+               <li class="footer-menu__item">
+                  <a href="#specialists" class="footer-menu__link">Специалисты</a>
+               </li>
+               <li class="footer-menu__item">
+                  <a href="#certificates" class="footer-menu__link">Сертификаты</a>
+               </li>
+            </ul>
+            <ul class="footer-menu">
+               <li class="footer-menu__item">
+                  <a href="#services" class="footer-menu__link">Услуги</a>
+               </li>
+               <li class="footer-menu__item">
+                  <a href="#discounts" class="footer-menu__link">Акции и скидки</a>
+               </li>
+               <li class="footer-menu__item">
+                  <a href="#calculator" class="footer-menu__link">Калькулятор</a>
+               </li>
+               <li class="footer-menu__item">
+                  <a href="#faq" class="footer-menu__link">FAQ</a>
+               </li>
+            </ul>
+         </nav>
+         <div class="footer__contacts">
+            <div class="footer__items">
+               <a href="tel:+70000000000" class="contacts__item">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                     <g>
+                        <path
+                           d="M7 6.2002V17.8002C7 18.9203 7 19.4801 7.21799 19.9079C7.40973 20.2842 7.71547 20.5905 8.0918 20.7822C8.5192 21 9.07899 21 10.1969 21H13.8031C14.921 21 15.48 21 15.9074 20.7822C16.2837 20.5905 16.5905 20.2842 16.7822 19.9079C17 19.4805 17 18.9215 17 17.8036V6.19691C17 5.07899 17 4.5192 16.7822 4.0918C16.5905 3.71547 16.2837 3.40973 15.9074 3.21799C15.4796 3 14.9203 3 13.8002 3H10.2002C9.08009 3 8.51962 3 8.0918 3.21799C7.71547 3.40973 7.40973 3.71547 7.21799 4.0918C7 4.51962 7 5.08009 7 6.2002Z"
+                           stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                     </g>
+                  </svg>
+                  <span>+7 (000) 000-00-00</span>
+               </a>
+               <div class="contacts__item">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                     <g>
+                        <path
+                           d="M20 17.0007V11.4527C20 10.9184 19.9995 10.6511 19.9346 10.4024C19.877 10.1821 19.7825 9.97356 19.6546 9.78513C19.5102 9.5725 19.3096 9.39618 18.9074 9.04431L14.1074 4.84431C13.3608 4.19103 12.9875 3.86455 12.5674 3.74031C12.1972 3.63083 11.8026 3.63083 11.4324 3.74031C11.0126 3.86446 10.6398 4.19063 9.89436 4.84292L5.09277 9.04432C4.69064 9.39618 4.49004 9.5725 4.3457 9.78513C4.21779 9.97356 4.12255 10.1821 4.06497 10.4024C4 10.6511 4 10.9184 4 11.4527V17.0007C4 17.9325 4 18.3983 4.15224 18.7658C4.35523 19.2559 4.74432 19.6457 5.23438 19.8487C5.60192 20.0009 6.06786 20.001 6.99974 20.001C7.93163 20.001 8.39808 20.0009 8.76562 19.8487C9.25568 19.6457 9.64467 19.256 9.84766 18.7659C9.9999 18.3984 10 17.9324 10 17.0006V16.0006C10 14.896 10.8954 14.0006 12 14.0006C13.1046 14.0006 14 14.896 14 16.0006V17.0006C14 17.9324 14 18.3984 14.1522 18.7659C14.3552 19.256 14.7443 19.6457 15.2344 19.8487C15.6019 20.0009 16.0679 20.001 16.9997 20.001C17.9316 20.001 18.3981 20.0009 18.7656 19.8487C19.2557 19.6457 19.6447 19.2559 19.8477 18.7658C19.9999 18.3983 20 17.9325 20 17.0007Z"
+                           stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                     </g>
+                  </svg>
+                  <span>г. Москва, ул. Пушкина, 43</span>
+               </div>
+               <a href="mailto:ooocompany@mail.ru" class="contacts__item">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                     <g>
+                        <path
+                           d="M4.5 6.5L10.1076 10.6123L10.1097 10.614C10.7878 11.1113 11.1271 11.3601 11.4988 11.4562C11.8272 11.5412 12.1725 11.5412 12.501 11.4562C12.8729 11.36 13.2132 11.1105 13.8926 10.6123L19.5002 6.5M3 15.8002V8.2002C3 7.08009 3 6.51962 3.21799 6.0918C3.40973 5.71547 3.71547 5.40973 4.0918 5.21799C4.51962 5 5.08009 5 6.2002 5H17.8002C18.9203 5 19.4796 5 19.9074 5.21799C20.2837 5.40973 20.5905 5.71547 20.7822 6.0918C21 6.5192 21 7.07899 21 8.19691V15.8036C21 16.9215 21 17.4805 20.7822 17.9079C20.5905 18.2842 20.2837 18.5905 19.9074 18.7822C19.48 19 18.921 19 17.8031 19H6.19691C5.07899 19 4.5192 19 4.0918 18.7822C3.71547 18.5905 3.40973 18.2842 3.21799 17.9079C3 17.4801 3 16.9203 3 15.8002Z"
+                           stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                     </g>
+                  </svg>
+                  <span>ooocompany@mail.ru</span>
+               </a>
+            </div>
+            <div class="footer__social">
+               <a href="#" class="social">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" fill="none">
+                     <g>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                           d="M0.00599052 22.5033C0.00335536 10.0842 10.0689 0.0143647 22.4879 0.0117296C26.698 0.00760115 30.8245 1.18534 34.398 3.411C44.9398 9.97641 48.1631 23.8445 41.5977 34.3862C35.0323 44.928 21.1641 48.1514 10.6224 41.5859L1.25295 44.9308C1.15202 44.9674 1.04547 44.9857 0.938134 44.9852C0.822451 44.9854 0.707821 44.964 0.599868 44.9224C0.117106 44.7361 -0.12322 44.1937 0.0630856 43.7109L3.56161 34.6338C1.24091 31.0134 0.00686891 26.8036 0.00599052 22.5033ZM29.4754 24.4679C30.9127 25.2174 33.2082 26.3418 33.2082 26.3418C33.5287 26.4996 33.7314 26.8259 33.7311 27.1833V29.0571C33.2598 31.786 30.8787 33.7703 28.1095 33.7418C25.1656 33.7418 19.514 30.2226 17.1397 27.8465C14.7655 25.4705 11.2444 19.8188 11.2444 16.8768C11.216 14.1076 13.2002 11.7265 15.9291 11.2551H17.803C18.1566 11.2555 18.4797 11.4548 18.6388 11.7705C18.6388 11.7723 19.7724 14.066 20.5126 15.5051C21.3465 17.1316 19.7818 19.0411 18.8898 19.9425C19.4274 21.3425 20.239 22.6211 21.2772 23.7034C22.3596 24.7413 23.6382 25.553 25.0381 26.0907C25.9376 25.1987 27.8489 23.6303 29.4754 24.4679Z" />
+                     </g>
+                     <defs>
+                        <clipPath id="clip0_206_466">
+                           <rect width="45" height="45" fill="white" />
+                        </clipPath>
+                     </defs>
+                  </svg>
+               </a>
+               <a href="#" class="social">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" fill="none">
+                     <path
+                        d="M22.5 45C34.9294 45 45 34.9294 45 22.5C45 10.0706 34.9294 0 22.5 0C10.0706 0 0 10.0706 0 22.5C0 34.9294 10.0706 45 22.5 45ZM10.2956 22.0125L31.9894 13.6481C32.9963 13.2844 33.8756 13.8938 33.5494 15.4163L33.5512 15.4144L29.8575 32.8162C29.5837 34.05 28.8506 34.35 27.825 33.7687L22.2 29.6231L19.4869 32.2369C19.1869 32.5369 18.9338 32.79 18.3525 32.79L18.7519 27.0656L29.1769 17.6475C29.6306 17.2481 29.0756 17.0231 28.4775 17.4206L15.5944 25.5319L10.0406 23.7994C8.835 23.4169 8.80875 22.5938 10.2956 22.0125Z" />
+                  </svg>
+               </a>
+               <a href="#" class="social">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 45" fill="none">
+                     <g>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                           d="M29.5794 6.19096L39.4999 7.06099C42.9014 7.33547 45.5169 10.1847 45.5001 13.5972V31.4096C45.5185 34.8188 42.9091 37.6675 39.5113 37.9477L29.5851 38.8101C27.4026 39.0014 25.2051 39.0951 23.0057 39.0951C20.8063 39.0951 18.6088 38.9976 16.4263 38.8101L6.5001 37.9477C3.09786 37.6731 0.482162 34.8228 0.500092 31.4096V13.5972C0.483217 10.1847 3.09857 7.33556 6.5001 7.06099L16.4207 6.19096C20.7986 5.81004 25.2014 5.81004 29.5794 6.19096ZM18.8206 13.2789L31.9455 21.7164V21.7144C32.0583 21.787 32.1543 21.8829 32.2268 21.9957C32.5069 22.4312 32.3809 23.0113 31.9455 23.2914L18.8206 31.7288C18.6693 31.8265 18.493 31.8784 18.3129 31.8785C17.7951 31.8787 17.3752 31.4591 17.375 30.9413V14.0664C17.3751 13.8863 17.427 13.71 17.5247 13.5587C17.8053 13.1235 18.3855 12.9983 18.8206 13.2789Z"
+                           fill="" />
+                     </g>
+                     <defs>
+                        <clipPath id="clip0_206_476">
+                           <rect width="45" height="45" fill="white" transform="translate(0.5)" />
+                        </clipPath>
+                     </defs>
+                  </svg>
+               </a>
+            </div>
+         </div>
+         <div class="footer__info mobile">
+            <div class="footer__copyright">
+               ©2005 - 2024 Company. Все права защищены
+            </div>
+            <a href="#" class="footer__link">Политика конфиденциальности</a>
+            <a href="#" class="footer__link">Пользовательское соглашение</a>
+         </div>
+      </div>
+   </div>
+</footer>
+      <div class="hystmodal" id="modal" aria-hidden="true">
+         <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+               <button data-hystclose class="hystmodal__close"></button>
+               <div class="modal-form">
+                  <div class="title center">
+                     Заказать <span>бесплатную</span> консультацию
+                  </div>
+                  <div class="consultation__form">
+                     <form action="#">
+                        <div class="form-row">
+                           <div class="form-item">
+                              <div class="form-input">
+                                 <input type="text" id="phone">
+                                 <label for="phone">
+                                    <span>*</span>+ 7 (900) 000 - 00 -- 00
+                                 </label>
+                              </div>
+                              <small>
+                                 Укажите корректные данные
+                              </small>
+                           </div>
+                        </div>
+                        <div class="form-submit">
+                           <button type="submit" class="button">
+                              <span>
+                                 Свяжитесь со мной
+                              </span>
+                           </button>
+                        </div>
+                        <div class="form-agreement">
+                           <input id="checkModal" type="checkbox" checked="">
+                           <label for="checkModal">Согласен на обработку <a href="#">персональных данных</a></label>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <script src="js/libraries.min.js?_v=20241118210858"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=30d0f401-780b-4686-a702-4cd1925f73b0&lang=ru_RU&_v=20241118210858"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js?_v=20241118210858"></script>
+<script src="js/app.js?_v=20241118210858"></script>
+</body>
+
+</html>
