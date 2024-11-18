@@ -409,7 +409,7 @@ $(document).ready(function () {
         {},
         {
           iconLayout: "default#image",
-          iconImageHref: "../img/contacts/point.svg",
+          iconImageHref: "img/contacts/point.svg",
           icon_imagesize: [28, 36],
           iconImageOffset: [-20, -30],
         }
@@ -615,13 +615,6 @@ document.addEventListener("DOMContentLoaded", function () {
     watch: {
       currentStep() {
         this.updateActiveStep();
-      },
-      currentStep() {
-        console.log(this.steps);
-        console.log(this.currentStep);
-        console.log(this.elementList);
-        console.log(this.result);
-        console.log(this.stepValues);
       },
     },
   });
